@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo LocalStorage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Listinha de "Entidades Profanas"</h1>
+        <input type="text" id="productInput" placeholder="Nome do cara">
+        <button id="addProductBtn">Adicionar os carinhas ai</button>
+
+        <h2>"Dêmonios" Armazenados:</h2>
+        <ul id="productList">
+            <li>
+                <img src="Baphomet.png" alt="Baphomet" style="width: 50px;">
+                <div>
+                    <strong>Baphomet</strong><br><span class="demonic-description">Descrição do Baphomet</span>
+                </div>
+                <button class="edit-btn" onclick="editProduct(0)">Editar Descrição</button>
+                <button disabled>Imagem Fixa</button>
+            </li>
+            <li>
+                <img src="Asmodeus.jpg" alt="Asmodeus" style="width: 50px;">
+                <div>
+                    <strong>Asmodeus</strong><br><span class="demonic-description">Descrição do Asmodeus</span>
+                </div>
+                <button class="edit-btn" onclick="editProduct(1)">Editar Descrição</button>
+                <button disabled>Imagem Fixa</button>
+            </li>
+            <li>
+                <img src="Beelzebub.png" alt="Belzebu" style="width: 50px;">
+                <div>
+                    <strong>Belzebu</strong><br><span class="demonic-description">Descrição do Belzebu</span>
+                </div>
+                <button class="edit-btn" onclick="editProduct(2)">Editar Descrição</button>
+                <button disabled>Imagem Fixa</button>
+            </li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

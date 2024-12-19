@@ -1,0 +1,101 @@
+body {
+    font-family: 'Creepster', cursive; /* Fonte sombria para o corpo da página */
+    background-color: #1a1a1a; /* Fundo escuro */
+    color: #f2f2f2; /* Texto claro para contraste */
+    margin: 0; /* Remove margens padrão do corpo */
+    padding: 20px; /* Adiciona um espaçamento interno ao corpo */
+}
+
+.container {
+    max-width: 600px; /* Largura máxima do container */
+    margin: 0 auto; /* Centraliza o container na página */
+    padding: 20px; /* Espaçamento interno do container */
+    background: #333; /* Fundo mais escuro para o container */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.8); /* Sombra mais intensa */
+}
+
+h1, h2 {
+    color: #ff0000; /* Cor vermelha para os títulos */
+}
+
+input[type="text"] {
+    width: calc(100% - 22px); /* Largura do campo de entrada */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Margem inferior */
+    border: 1px solid #666; /* Borda escura */
+    border-radius: 4px; /* Cantos arredondados */
+    background: #444; /* Fundo do campo */
+    color: #f2f2f2; /* Cor do texto no campo */
+}
+
+button {
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    background-color: #d9534f; /* Cor de fundo para botões */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 4px; /* Cantos arredondados */
+    cursor: pointer; /* Indica que é clicável */
+}
+
+button:hover {
+    background-color: #c9302c; /* Cor ao passar o mouse */
+}
+
+ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento da lista */
+}
+
+li {
+    background: #555; /* Fundo dos itens da lista */
+    margin: 5px 0; /* Margem entre os itens */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 4px; /* Cantos arredondados */
+    transition: background 0.3s; /* Transição para mudança de fundo */
+    display: flex; /* Usa flexbox para layout */
+    justify-content: space-between; /* Botão à direita */
+}
+
+li:hover {
+    background: #666; /* Cor ao passar o mouse sobre o item */
+}
+
+.remove-btn {
+    margin-left: 10px; /* Margem à esquerda do botão de remoção */
+    padding: 5px 10px; /* Espaçamento interno */
+    background-color: #dc3545; /* Cor de fundo do botão de remoção */
+    color: white; /* Cor do texto do botão de remoção */
+    border: none; /* Remove a borda do botão de remoção */
+    border-radius: 4px; /* Cantos arredondados */
+    cursor: pointer; /* Indica que é clicável */
+}
+
+.remove-btn:hover {
+    background-color: #c82333; /* Cor ao passar o mouse */
+}
+
+img {
+    margin-right: 10px; /* Espaçamento à direita da imagem */
+}
+
+.edit-btn, .change-image-btn {
+    margin-left: 10px; /* Espaço entre botões */
+    padding: 5px 10px; /* Estilização dos botões */
+    background-color: #007bff; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 4px; /* Cantos arredondados */
+    cursor: pointer; /* Indica que é clicável */
+}
+
+.edit-btn:hover, .change-image-btn:hover {
+    background-color: #0056b3; /* Altera cor ao passar o mouse */
+}
+
+/* Estilização da descrição demoníaca */
+.demonic-description {
+    font-family: 'Creepster', cursive; /* Fonte demoniaca */
+    color: #ff0000; /* Cor vermelha */
+    font-size: 1.1em; /* Tamanho da fonte */
+}
